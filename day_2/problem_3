@@ -1,0 +1,8 @@
+# Write a function to check if a list reads the same forward and backward.
+# Example: [1, 2, 3, 2, 1] → True
+
+
+nums = [1, 2, 3, 2, 1]
+is_palindrome = nums == nums[::-1]
+
+print("Is palindrome?", is_palindrome)
