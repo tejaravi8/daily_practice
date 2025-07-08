@@ -2,12 +2,12 @@
 # Example: [1, 2, 3, 4] → [1, 2, 6, 24]
 
 nums=[1,2,3,4]
-fact=1
-fact_list=[]
 
-for i in nums:
-    if i>0:
-        fact*=i
-        fact_list.append(fact)
-        
-print(fact_list)
+factorials = []
+for num in nums:
+    fact = 1
+    for i in range(1, num + 1):
+        fact *= i
+    factorials.append(fact)
+
+print("Factorials:", factorials)
