@@ -9,6 +9,7 @@ for i in nums:
         non_neg.append(i)
         
 print(non_neg)
+
 # nums.pop(1)
 # nums.pop(2)
 
