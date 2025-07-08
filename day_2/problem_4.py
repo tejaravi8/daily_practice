@@ -3,17 +3,28 @@
 
 nums = [0, 1, 0, 3, 12]
 
-result = []
+result1 = []
+result2=[]
 
-# Add non-zero elements first
-for num in nums:
-    if num != 0:
-        result.append(num)
+for i in nums:
+    if i !=0:
+        result1.append(i)
+    else:
+        result2.append(i)
+        
+result = result1 + result2
+print(result)
 
-# Count zeros
-zeros = nums.count(0)
+# nums = [0, 1, 0, 3, 12]
+# result=[]
+# # Add non-zero elements first
+# for num in nums:
+#     if num != 0:
+#         result.append(num)
+# # Count zeros
+# zeros = nums.count(0)
 
-# Add zeros at the end
-result.extend([0] * zeros)
+# # Add zeros at the end
+# result.extend([0] * zeros)
 
-print("Zeros moved:", result)
+# print("Zeros moved:", result)

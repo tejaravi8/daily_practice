@@ -4,13 +4,13 @@
 
 numbers = [1, 2, 2, 3, 1, 4, 2]
 
-freq = {}
+freq = {}  
 
 for num in numbers:
-    if num in freq:
-        freq[num] += 1
+    if num not in freq:
+        freq[num] = 0
     else:
-        freq[num] = 1
+        freq[num] += 1
 
 print("Frequency:", freq)
 
