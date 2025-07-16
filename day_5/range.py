@@ -478,6 +478,251 @@
 #         break
 # print(x)
 
-for i in range(3):
-    print(i)
-    i += 1
+# for i in range(3):
+#     print(i)
+#     i += 1
+
+# name = "Alice"
+# if name:
+#     print("Not empty")
+
+# login = False
+# if not login:
+#     print("Please log in")
+
+# x = 5
+# print("Even" if x % 2 == 0 else "Odd")
+
+# status = "active"
+# if status == "active":
+#     print("Running")
+
+# score = 40
+# if score >= 35 and score < 50:
+#     print("Just Pass")
+
+# val = "False"
+# if 'v':+
+
+x = 5
+# y = 10
+# if x < y and y < 20:
+#     print("Valid range")
+
+# if 1 < x < 10:
+#     print("Chained comparison")             # x is not defined
+
+# if x == 1 or 2:
+#     print("Tricky condition")
+
+# msg = ""
+# if not msg:
+#     print("Empty string")
+
+# user = "admin"
+# if user == "admin":
+#     print("Case sensitive")
+
+# if type(10) == int:
+#     print("Integer")
+
+# lst = []
+# if not lst:
+#     print("Empty list")
+
+# x = None
+# if x is None:
+#     print("None check")
+
+# if "" or 0:
+#     print("Mixed falsey")
+
+# flag = True
+# if flag and not False:
+#     print("Works")
+
+# def check():
+#     print("Checked")
+#     return True
+
+# if check():
+#     print("Short-circuit")
+
+# data = [1, 2, 3]
+# if 5 in data:
+#     print("Found")
+
+# is_admin = True
+# is_logged = False
+# if is_logged and is_admin:
+#     print("Admin access")
+
+# num = 5
+# if num % 2 == 0:
+#     print("Even")
+# else:
+#     if num % 5 == 0:
+#         print("Divisible by 5")
+
+a = 1000
+b = 1000
+# if a == b and a is not b:
+#     print("Equal but not same object")
+
+# 15/7/2025
+
+# k = float(input('enter:'))
+# print(k)
+# print(type(k))
+
+# k=bool(input('enter:'))
+
+# name='x1'
+# rev=''
+# for i in range(len(name)-1,-1,-1):
+#     rev=rev+name[i]
+#     # rev=i+rev
+    
+# if name==rev:
+#     print('palindrome')
+# else:
+#     print('not  a pali')
+# print(rev)
+# # print(rev)
+
+# nums=['madam','apple','level','wow']
+# rev=''
+# new_list=[]
+
+# for i in nums:
+#     for j in i:
+#         rev= j + rev
+#         if i==rev:
+#             print(i)
+#     rev=''   # rev=''
+# # print(new_list)
+
+# n=5
+# for i in range(n,-1,-1):
+#     print(i*'*')
+
+n = 4
+
+# for i in range(1, n+1):
+#     for j in range(1, i+1):
+#         print(j)
+    # print()
+
+# Output:
+# 1
+# 12
+# 123
+# 1234
+  
+# n = 10
+
+# for i in range(1, n+1):
+#     spaces = ' ' * (n - i)
+#     stars = '*' * (2*i - 1)
+#     print(spaces + stars)  
+
+# nums=[1,-2,-3,4,-5,6]
+# min=float('inf')
+# new=[]
+# for i in nums:
+#     if i<min:
+#         min=i
+#         new.append(min)
+            
+# print(new)
+
+# nums=[1,2,2,3,3,3]
+# freq={}
+# k=0
+# for i in nums:
+#     if i not in freq:
+#         freq[i]=1
+#     else:
+#         freq[i]+=1
+
+
+# for i,j in freq.items():
+#     if j>k:
+#         k=j
+        
+# print(k)
+
+# k = list(input('enter the value:')).split()
+# # print(k)
+# print(type(k),k)
+
+# res=list(map(bool,input('enter:').split()))
+# print(res)
+# print(1x3,'teja')
+
+# k={1,2,3,1,1}
+# k.add('tej')
+
+# e=list(k)
+# # print(e[0])
+# print(e)
+# # print(k[1])
+# k.add('tej')
+# k.discard('tej')
+# k.remove('tej')
+# print(k)
+# # # print(len(k))
+# # # print(type(k))
+
+# seq={'q',3,3,'teja',1}
+
+# seq.update(1,20)
+# print(seq)
+
+# my_dict = {(1, 2): 'value'}  # Using a tuple as a key
+# my_set = {1, 2, (3, 4)}      # Adding a tuple to a set
+
+# print(my_dict,my_set)
+
+# se={1,True,0,False}
+# print(se)
+
+# item="this is a test this is"
+# # listt=["this" ,"is" ,"a" ,"test", "this" ,"is"]
+# cou={}
+# a=item.split()
+# print(a)
+    
+#     # if i not in cou:
+# #         cou[i]=1
+# #     else:
+# #         cou[i]+=1
+# # print(cou)
+
+# for i in range(1,11):
+#     if i%2 ==0:
+#         print(i**0.5)
+
+# mt=input('enter values:')
+# for i in mt:
+#     if int(i):
+#         print(int(i)**0.5)
+
+# total=7176
+# thousands=a//1000
+# remain=total-thousands*1000
+# hund=remain//100
+# remain=remain-hund*100
+# print(remain)
+# print("100's",hund)
+# print("1000's",thousands)
+
+from collections import Counter
+
+nums = [1, 2, 2, 3, 3]
+
+freq = Counter(nums)
+print(freq)  # Counter({3: 3, 2: 2, 1: 1})
+
+# Most common element
+print(freq.most_common())  # [(3, 3)]
