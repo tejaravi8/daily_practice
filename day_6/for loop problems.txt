@@ -1,0 +1,37 @@
+Here are some basic problems involving for loops in Python:
+
+1. Printing a sequence of numbers:
+Print numbers from 1 to 10.
+Print even numbers between 1 and 20.
+Print numbers from 1 to 100 with a step of 3. 
+
+2. Calculating sums:
+Calculate the sum of numbers from 1 to a given number.
+Calculate the sum of all odd numbers within a given range.
+Calculate the sum of elements in a list. 
+
+3. Working with lists:
+Print all elements of a list.
+Find the largest or smallest element in a list.
+Count how many times a specific element appears in a list.
+
+4. String manipulation:
+Print each character of a string.
+Reverse a string.
+Count the number of digits and letters in a string.
+
+5. Multiplication tables:
+Print the multiplication table for a given number.
+
+6. Pattern printing:
+Print a square pattern of asterisks.
+Print a right triangle pattern of asterisks.
+
+7. Conditional logic within loops:
+Print numbers divisible by 3 or 5 from 1 to 20.
+Count the number of even and odd numbers in a series.
+Check if a number is prime. 
+
+8. Nested loops:
+Use nested loops to iterate through a 2D structure.
+Use nested loops to create complex patterns.

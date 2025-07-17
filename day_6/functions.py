@@ -61,9 +61,9 @@
 #         print(f"{key}: {value}")
 
 # print_details(name="Teja", age=25, city="Hyderabad")
-# # name: Teja
-# # age: 25
-# # city: Hyderabad
+# name: Teja
+# age: 25
+# city: Hyderabad
 
 # def is_pali(word):
 #     return word==word[::-1]
@@ -72,6 +72,4 @@
 #     return print([w for w in words if is_pali(w)])
 
 # find_pali(['level','mam','madam','anakonda'])
-
-
 
