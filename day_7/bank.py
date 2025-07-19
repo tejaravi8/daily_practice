@@ -35,8 +35,18 @@ class Bank:
         new_account_holder["Account_num"]=Account
         new_account_holder["IFSC Code"]="AIRP0000001"
         
+        acc_type=input('enter your account type Savings/Zero:')
+        if acc_type=="savings":
+            new_account_holder['Acc_type']=acc_type
+            balance=int(input('enter 500 to deposite:'))
+            
+        
         Bank.New_accounts.append(new_account_holder)
         print(Bank.New_accounts)
+        
+    def Deposite(self,account):
+        if new_account_holder['Account_num']=account:
+            
         
 obj=Bank()
 for x in range(1):
