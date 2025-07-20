@@ -50,11 +50,9 @@
 
 # Delete the second and third items in a list.
 # my_list=[1, 2, 3, 4, 5, 6, 7, 8,9]
-
-# for i in my_list:
-#     if i==my_list[1] :
-#         my_list.remove(i)
-        
+# for a in range(0,2):
+#     for i in range(1,2):
+#         my_list.pop(1)   
 # print(my_list)
 
 # Check if 15 is in the list [10, 20, 15, 30]
@@ -376,10 +374,10 @@
 
 #---------------------------------------------------
 # # Rotate a list to the left by 2 steps.
-listt=[1,2,3,4,5,6,7,8,9,10]
-k=2
-new_list=listt[-k:]+listt[:-k]
-print(new_list)
+# listt=[1,2,3,4,5,6,7,8,9,10]
+# k=2
+# new_list=listt[-k:]+listt[:-k]
+# print(new_list)
 
 
 #---------------------------------------------------

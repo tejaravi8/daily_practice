@@ -99,21 +99,28 @@
 # obj2=child3()   
 
 #======================================== HIERARCHICAL INHERITENCE ========================================#
-class Grandparent:
-    def method(self):
-        print("grand parent class")
+# class Grandparent:
+#     def method(self):
+#         print("grand parent class")
         
-class Parent(Grandparent):
-    def method2(self):
-        print("Parent class")
+# class Parent(Grandparent):
+#     def method2(self):
+#         print("Parent class")
         
-class Parent2:
-    def method3(self):
-        print("parent2 class")
+# class Parent2:
+#     def method3(self):
+#         print("parent2 class")
         
-class Child(Parent,Parent2):
-    def method4(self):
-        print("child Class")
+# class Child(Parent,Parent2):
+#     def method4(self):
+#         print("child Class")
         
-obj=Child()
-obj.method4()
+# obj=Child()
+# obj.method4()
+
+a=[1,2,3,4,5,6,7,8,9]
+
+for i in range(1,3):
+    a.pop(i)
+        
+print(a)
