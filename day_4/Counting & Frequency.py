@@ -1,5 +1,6 @@
-names=["teja","chandu","ganesh","drusyanth","ganesh","charan","tarun","hemanth"]
+# count frequencies of names
 
+names=["teja","chandu","ganesh","drusyanth","ganesh","charan","tarun","hemanth"]
 freq={}
 for i in names:
     if i not in freq:

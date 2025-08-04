@@ -569,7 +569,6 @@ b = 1000
 # if a == b and a is not b:
 #     print("Equal but not same object")
 
-# 15/7/2025
 
 # k = float(input('enter:'))
 # print(k)

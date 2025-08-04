@@ -58,7 +58,7 @@ class bank:
             if x['holder_name']==n5 and x['Account_no']==n6:
                 data=x.get('balance')
                 x['balance']=data+n3
-            print(Bank.HOLDER_DETAILS)
+            print(bank.HOLDER_DETAILS)
 
 
 
